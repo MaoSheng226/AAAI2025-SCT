@@ -14,14 +14,14 @@ The directories to be modified are as follows:
     * losses
 ## Guide to Use
 For network training, enter the following command:
-'''
+```
 python tools/train.py configs/sd/SCDecoderHead_OSTb5_1xb8-320k_EORSSD-512x512.py
-'''
+```
 For testing, enter the following command:
-'''
+```
 python tools/test.py configs/sd/SCDecoderHead_OSTb5_1xb8-320k_EORSSD-512x512.py [checkpoint_path] --tta --out [result_save_path]
-'''
+```
 Evaluate the specific values of each metric:
-'''
+```
 python tools/evalution2.py
-'''
+```
